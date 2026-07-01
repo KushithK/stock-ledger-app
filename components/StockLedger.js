@@ -144,10 +144,7 @@ function Login({ data, onLogin }) {
 
           {mode === "admin" && (
             <p style={{ fontSize: 12, color: "#9A917E", marginTop: 14, lineHeight: 1.5 }}>
-              Default password is <code style={{ background: "#F6F3EC", padding: "1px 5px", borderRadius: 4 }}>admin123</code>. Change it from Settings after signing in.
-            </p>
-          )}
-        </div>
+               <code style={{ background: "#F6F3EC", padding: "1px 5px", borderRadius: 4 }}></code>. 
       </div>
     </div>
   );
